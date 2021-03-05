@@ -204,8 +204,6 @@ GameObject:
   - component: {fileID: 1478289203}
   - component: {fileID: 1478289202}
   - component: {fileID: 1478289204}
-  - component: {fileID: 1478289205}
-  - component: {fileID: 1478289206}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -270,21 +268,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1478289204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1478289201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58fcd1a88c1bb7848a31105ed85227aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2.4
-  walkCount: 20
-  Dash: 2.4
---- !u!95 &1478289205
+--- !u!95 &1478289204
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -293,7 +277,7 @@ Animator:
   m_GameObject: {fileID: 1478289201}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 397f3d2f18e25b14090d91e15759f8fe, type: 2}
+  m_Controller: {fileID: 9100000, guid: 27c2a16af5dd85a4396f853fd39a25cd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -301,23 +285,3 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!50 &1478289206
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1478289201}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
